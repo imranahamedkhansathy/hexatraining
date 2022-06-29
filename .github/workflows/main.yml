@@ -2,7 +2,7 @@ name: Run Azure Login with OIDC
 # Controls when the workflow will run
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 permissions:
       id-token: write
